@@ -72,12 +72,12 @@ export default function SignUp({ navigation }) {
           />
 
           <SubmitButton loading={loading} onPress={handleSubmit}>
-            Sign Up
+            Sign up
           </SubmitButton>
         </Form>
 
         <SignLink onPress={() => navigation.navigate('SignIn')}>
-          <SignLinkText>Already have an account?</SignLinkText>
+          <SignLinkText>Already have an account? Sign in.</SignLinkText>
         </SignLink>
       </Container>
     </Background>
